@@ -2,12 +2,24 @@ package com.yeliseyenka.lesson2;
 
 import java.util.Scanner;
 
+/**
+ * Задание:
+ * Дано любое натуральное 4-х значное число. Верно ли, что все цифры числа
+ * различны?
+ * */
+
 public class HomeWorkTask3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter any natural four-digit number: ");
+
+        while(!scanner.hasNextInt()) {
+            System.out.println("It's not a number");
+            scanner.next();
+        }
+
         int fourDigitNumber = scanner.nextInt();
 
         if (999 > fourDigitNumber || fourDigitNumber > 9999) {
