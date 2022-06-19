@@ -32,8 +32,8 @@ public class HomeWorkTask3 {
             int theSecondDigit = noThirdDigit % 10;
             int theFirstDigit = (noThirdDigit - theSecondDigit) / 10;
 
-            if ((theFirstDigit != theSecondDigit) && (theFirstDigit != theThirdDigit) && (theFirstDigit != theFourthDigit)
-                && (theSecondDigit != theThirdDigit) && (theSecondDigit != theFourthDigit) && (theThirdDigit != theFourthDigit)) {
+            if (theFirstDigit != theSecondDigit && theFirstDigit != theThirdDigit && theFirstDigit != theFourthDigit
+                && theSecondDigit != theThirdDigit && theSecondDigit != theFourthDigit && theThirdDigit != theFourthDigit) {
 
                 System.out.println("All digits are numbers of different");
             } else {
