@@ -7,6 +7,7 @@ import java.util.Scanner;
  * Написать программу, результатом работы которой будет вывод результата сравнения двух введенных чисел.
  */
 
+
 public class HomeWorkTask4 {
     public static void main(String[] args) {
 

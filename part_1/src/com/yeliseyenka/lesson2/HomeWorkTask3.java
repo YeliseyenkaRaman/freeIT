@@ -8,6 +8,7 @@ import java.util.Scanner;
  * различны?
  * */
 
+
 public class HomeWorkTask3 {
     public static void main(String[] args) {
 

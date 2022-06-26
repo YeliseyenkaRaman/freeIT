@@ -10,6 +10,7 @@ package com.yeliseyenka.lesson2;
  * по аналогии с примером выше.
  */
 
+
 public class HomeWorkTask1 {
     public static void main(String[] args) {
 

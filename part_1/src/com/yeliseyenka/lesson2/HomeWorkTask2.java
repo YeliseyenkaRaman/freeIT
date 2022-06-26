@@ -8,6 +8,7 @@ import java.util.Scanner;
  * любого 4-х значного натурального числа n.
  * */
 
+
 public class HomeWorkTask2 {
     public static void main(String[] args) {
 
