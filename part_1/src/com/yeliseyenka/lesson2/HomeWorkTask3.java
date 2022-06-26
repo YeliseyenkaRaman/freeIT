@@ -39,7 +39,6 @@ public class HomeWorkTask3 {
             } else {
                 System.out.println("Not all digits are numbers of different");
             }
-
         }
     }
 }

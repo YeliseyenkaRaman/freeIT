@@ -27,6 +27,5 @@ public class HomeWorkTask1 {
         System.out.println("B) " + allHours+ " hours " + min + " min " + sec + " sec");
         System.out.println("C) " + allDays + " days " + hours+ " hours " + min + " min " + sec + " sec");
         System.out.println("D) " + allWeeks + " weeks " + days + " days " + hours + " hours " + min + " min " + sec + " sec");
-
     }
 }
