@@ -8,14 +8,15 @@ package com.yeliseyenka.lesson5;
 public class HomeWorkTask13 {
     public static void main(String[] args) {
 
+        int firstNIntegers = 7;
+        int sumNIntegers= 0;
+        int k = 0;
 
-        int integerNumber = 5;
-        int sumNNumbers = 0;
+        for (int i = 1; i <= firstNIntegers; i++) {
+            k += 3;
+            sumNIntegers += k;
 
-        for (int i = 1; i <= integerNumber; i++) {
-            sumNNumbers += i;
         }
-
-        System.out.println(sumNNumbers);
+        System.out.println(sumNIntegers);
     }
 }
