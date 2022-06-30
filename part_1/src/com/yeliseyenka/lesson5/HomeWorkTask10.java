@@ -12,10 +12,10 @@ package com.yeliseyenka.lesson5;
 public class HomeWorkTask10 {
     public static void main(String[] args) {
 
-        int n = 0;
+        int n;
         int multiplication = 1;
 
-        for (; n < 5; n++) {
+        for (n = 0; n < 5; n++) {
             int x = (int) (Math.random() * 20) + 1;
             System.out.println(x);
             multiplication *= x;
