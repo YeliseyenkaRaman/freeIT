@@ -3,7 +3,7 @@ package com.yeliseyenka.lesson5;
 /**
  * «адание:
  * ѕосчитать факториал числа в границах от 10 до 15 (не использу€ рекурсию).
- */
+ * */
 
 public class HomeWorkTask11 {
     public static void main(String[] args) {
