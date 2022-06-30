@@ -4,7 +4,7 @@ package com.yeliseyenka.lesson5;
  * «адание:
  * »меетс€ целое число, определить €вл€етс€ ли это число простым, т.е.
  * делитс€ без остатка только на 1 и себ€.
- */
+ * */
 
 public class HomeWorkTask12 {
     public static void main(String[] args) {
